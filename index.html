@@ -6,9 +6,10 @@
     <title>Zedeks Digital</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css" />
   </head>
-  <body>
+  <body class="mx-[10%] h-screen">
     <header class="sticky top-0 z-10 flex justify-between items-center p-4 px-[6%] text-white h-[65px] ">
       <div>
         <img src="/assets/images/main.png" alt="" />
@@ -24,10 +25,10 @@
       </div>
     </header>
 
-    <section id="home" class="bg-no-repeat bg-center bg-contain bg-[url('/assets/images/Blocks.png')]">
+    <section id="home" class="px-[10%] bg-no-repeat bg-center bg-contain bg-[url('/assets/images/Blocks.png')]">
        <div class="flex justify-between w-full ">
          <!-- Left -->
-         <div class="mx-[10%] ">
+         <div>
             <img src="/assets/images/lamp.png" alt="">
         </div>
 
@@ -38,14 +39,21 @@
        </div>
     </section>
 
-    <section class="flex justify-evenly items-center">
-        <div>
-            <h1>Why choose</h1>
-            <h1>Zedek's Digital</h1>
+    <section id="why" class="h-[80%] bg-no-repeat bg-center bg-[#D7AF2720] bg-cover bg-[url('/assets/images/scratch.png')] px-[10%] flex justify-evenly items-center">
+        <div class="flex justify-center font-['Quicksand'] ">
+          <div class="w-full max-w-80 text-[2.5rem] font-bold justify-items-end">
+            <span>Why choose</span>
+            <br>
+            <span class="text-[#D7AF27]">Zedek's Digital</span>
 
         </div>
-        <div>
-
+        <div class="flex justify-evenly items-center font-semibold">
+          <ul class="space-y-10 text-[1.2rem]">
+            <li>Your business deserves a strong online presence. Whether you need a stunning website, a powerful web or mobile application, secure business emails, or reliable domain and hosting services—we’re here to make it happen.</li>
+            <li>At Zedek’s Digital, we tailor our solutions to fit your unique needs, ensuring your digital presence reflects your brand and drives your success. Let’s build something great together</li>
+            <li>Contact us today to get started.</li>
+          </ul>
+        </div>
         </div>
     </section>
 
