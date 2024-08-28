@@ -7,10 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/css/main.css" />
   </head>
-  <body class="mx-[10%] h-screen">
-    <header class="sticky top-0 z-10 flex justify-between items-center p-4 px-[6%] text-white h-[65px] ">
+  <body class=" h-screen">
+    <header class="sticky top-0 z-10 flex justify-between items-center p-4 px-[13%] text-white h-[65px] ">
       <div>
         <img src="/assets/images/main.png" alt="" />
       </div>
@@ -25,16 +26,31 @@
       </div>
     </header>
 
-    <section id="home" class="px-[10%] bg-no-repeat bg-center bg-contain bg-[url('/assets/images/Blocks.png')]">
+    <section id="home" class="px-[6%] bg-no-repeat bg-center bg-contain bg-[url('/assets/images/Blocks.png')]">
        <div class="flex justify-between w-full ">
          <!-- Left -->
-         <div>
-            <img src="/assets/images/lamp.png" alt="">
+         <div class="flex flex-col justify-center">
+            <div class="mx-4">
+              <img src="/assets/images/lamp.png" alt="" width="80px">
+            </div>
+
+            <div class="flex flex-col col-span-2 p-4 font-['Quicksand']">
+              <div class="max-w-80 bg-[#FFF6DE] rounded-full p-3 space-x-2 my-6">
+                <span class="bg-[#D7AF27] font-medium rounded-full p-1 px-3">Welcome to Zedek's Digital</span>
+                <i class="bi bi-arrow-right px-3"></i>
+              </div>
+              <div class="w-full space-y-6">
+                <h1 class="text-[3.5rem] font-bold">
+                  Your Digital <br> Transformation Partner
+                </h1>
+                <p class="text-[1.2rem] font-semibold max-w-[600px]">Whether you're looking for cutting-edge website development, seamless web or mobile applications, stunning UI/UX design, eye-catching graphic design, or reliable hosting for your websites and business emails, we've got you covered. </p>
+              </div>
+            </div>
         </div>
 
         <!-- Right -->
-        <div class="flex justify-evenly items-center">
-            <img src="/assets/images/sally-bg.png" alt="">
+        <div class="h-full max-w-[40%] flex justify-center items-center">
+            <img class="w-full p-6" src="/assets/images/sally-bg.png" alt="Sally">
         </div>
        </div>
     </section>

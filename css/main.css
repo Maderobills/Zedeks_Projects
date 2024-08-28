@@ -8,6 +8,10 @@ header{
     background-color: #441B02;
 }
 
+section{
+    margin: auto 10%;
+}
+
 section#home{
     
     height: calc(100% - 65px);
