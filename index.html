@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body class=" h-screen">
-    <header class="sticky top-0 z-10 flex justify-between items-center p-4 px-[13%] text-white h-[65px] ">
+    <header class="sticky top-0 fixed z-10 flex justify-between items-center p-4 px-[13%] text-white h-[65px] ">
       <div>
         <img src="/assets/images/main.png" alt="" />
       </div>
@@ -27,108 +27,116 @@
     </header>
 
     <section id="home" class="px-[6%] bg-no-repeat bg-center bg-contain bg-[url('/assets/images/Blocks.png')]">
-       <div class="flex justify-between w-full ">
-         <!-- Left -->
-         <div class="flex flex-col justify-center">
-            <div class="mx-4">
-              <img src="/assets/images/lamp.png" alt="" width="80px">
-            </div>
+      <div class="flex justify-between w-full ">
+        <!-- Left -->
+        <div class="flex flex-col">
+           <div class="mx-4">
+             <img src="/assets/images/lamp.png" alt="" width="80px">
+           </div>
 
-            <div class="flex flex-col col-span-2 p-4 font-['Quicksand']">
-              <div class="max-w-80 bg-[#FFF6DE] rounded-full p-3 space-x-2 my-6">
-                <span class="bg-[#D7AF27] font-medium rounded-full p-1 px-3">Welcome to Zedek's Digital</span>
-                <i class="bi bi-arrow-right px-3"></i>
-              </div>
-              <div class="w-full space-y-6">
-                <h1 class="text-[3.5rem] font-bold">
-                  Your Digital <br> Transformation Partner
-                </h1>
-                <p class="text-[1.2rem] font-semibold max-w-[600px]">Whether you're looking for cutting-edge website development, seamless web or mobile applications, stunning UI/UX design, eye-catching graphic design, or reliable hosting for your websites and business emails, we've got you covered. </p>
-              </div>
-            </div>
-        </div>
-
-        <!-- Right -->
-        <div class="h-full max-w-[40%] flex justify-center items-center">
-            <img class="w-full p-6" src="/assets/images/sally-bg.png" alt="Sally">
-        </div>
+           <div class="flex flex-col col-span-2 p-4 font-['Quicksand']">
+             <div class="max-w-80 bg-[#FFF6DE] rounded-full p-3 space-x-2 my-6">
+               <span class="bg-[#D7AF27] font-medium rounded-full p-1 px-3">Welcome to Zedek's Digital</span>
+               <i class="bi bi-arrow-right px-3"></i>
+             </div>
+             <div class="w-full space-y-6">
+               <h1 class="text-[3.5rem] font-bold">
+                 Your Digital
+               </h1>
+               <h1 class="text-[3.5rem] text-nowrap font-bold">
+                 Transformation Partner
+               </h1>
+               <p class="text-[1.2rem] font-semibold max-w-[600px]">Whether you're looking for cutting-edge website development, seamless web or mobile applications, stunning UI/UX design, eye-catching graphic design, or reliable hosting for your websites and business emails, we've got you covered. </p>
+             </div>
+           </div>
+           <div class="mx-4 font-semibold font-['Quicksand' space-x-3">
+             <button class="bg-[#DBDBDB] p-3 px-4 rounded-lg ">Explore our services</button>
+             <button class="bg-[#D7AF27] p-3 px-4 rounded-lg text-white">Join our career program</button>
+           </div>
        </div>
-    </section>
 
-    <section id="why" class="h-[80%] bg-no-repeat bg-center bg-[#D7AF2720] bg-cover bg-[url('/assets/images/scratch.png')] px-[10%] flex justify-evenly items-center">
-        <div class="flex justify-center font-['Quicksand'] ">
-          <div class="w-full max-w-80 text-[2.5rem] font-bold justify-items-end">
-            <span>Why choose</span>
-            <br>
-            <span class="text-[#D7AF27]">Zedek's Digital</span>
-
-        </div>
-        <div class="flex justify-evenly items-center font-semibold">
-          <ul class="space-y-10 text-[1.2rem]">
-            <li>Your business deserves a strong online presence. Whether you need a stunning website, a powerful web or mobile application, secure business emails, or reliable domain and hosting services—we’re here to make it happen.</li>
-            <li>At Zedek’s Digital, we tailor our solutions to fit your unique needs, ensuring your digital presence reflects your brand and drives your success. Let’s build something great together</li>
-            <li>Contact us today to get started.</li>
-          </ul>
-        </div>
-        </div>
-    </section>
-
-    <section id="services" class="bg-[#fff] px-[10%] py-6">
-      <div class="my-[10%] font-['Quicksand'] space-y-10">
-        <div class="flex flex-col w-full space-y-6">
-          <span class="text-[2.5rem] font-bold ">Services Provided</span>
-          <br>
-          <span class="max-w-[80%]">Join our internship program and gain world-class skills by working on real-world projects. This is your opportunity to learn from industry experts,</span>
-
+       <!-- Right -->
+       <div class="max-w-[60%] flex flex-col items-center">
+           <img class="my-6" src="/assets/images/sally-bg.png" alt="Sally">
+           <img src="/assets/images/cursor.png" alt="cursor">
+       </div>
       </div>
-      <div class="flex flex-col justify-center space-y-6 text-white">
-        <div class="w-full h-[300px] bg-[#D7AF27] rounded-[30px]">
-          <div class="flex flex-col max-w-[80%] space-y-5 p-6">
-            <img class="opacity-75" src="/assets/images/web.png" alt="web" width="70px">
-            <h3 class="font-semibold text-[1.6rem]">Website and Web Application  Development</h3>
-            <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
-          </div>
-          <div> </div>
-        </div>
-        <div class="flex flex-row space-x-6">
-          <div class="w-full h-[300px] bg-[#441B02] rounded-[30px]">
-            <div class="flex flex-col max-w-[60%] space-y-5 p-6">
-              <img class="opacity-75" src="/assets/images/mobile.png" alt="mobile" width="70px">
-              <h3 class="font-semibold text-[1.6rem]">Mobile Apps</h3>
-              <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
-            </div>
-            <div> </div>
-          </div>
-          <div class="w-full h-[300px] bg-[#D7AF27] rounded-[30px]">
-            <div class="flex flex-col max-w-[60%] space-y-5 p-6">
-              <img class="opacity-75" src="/assets/images/graphic.png" alt="Graphic" width="70px">
-              <h3 class="font-semibold text-[1.6rem]">Graphic Design</h3>
-              <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
-            </div>
-            <div> </div>
-          </div>
-        </div>
-        <div class="flex flex-row space-x-6">
-          <div class="w-full h-[300px] bg-[#D7AF27] rounded-[30px]">
-            <div class="flex flex-col max-w-[60%] space-y-5 p-6">
-              <img class="opacity-75" src="/assets/images/uiux.png" alt="ui/ux" width="70px">
-              <h3 class="font-semibold text-[1.6rem]">UI/UX Design</h3>
-              <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
-            </div>
-            <div> </div>
-          </div>
-          <div class="w-full h-[300px] bg-[#441B02] rounded-[30px]">
-            <div class="flex flex-col max-w-[60%] space-y-5 p-6">
-              <img class="opacity-75" src="/assets/images/social.png" alt="web" width="70px">
-              <h3 class="font-semibold text-[1.6rem]">Social media Management </h3>
-              <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
-            </div>
-            <div> </div>
-          </div>
-        </div>
-      </div>
-      </div>
-  </section>
+   </section>
+
+   <section id="why" class="h-[80%] bg-no-repeat bg-center bg-[#D7AF2720] bg-cover bg-[url('/assets/images/scratch.png')] px-[10%] flex justify-evenly items-center">
+       <div class="flex justify-center font-['Quicksand'] ">
+         <div class="w-full max-w-80 text-[2.5rem] font-bold justify-items-end">
+           <span>Why choose</span>
+           <br>
+           <span class="text-[#D7AF27]">Zedek's Digital</span>
+
+       </div>
+       <div class="flex justify-evenly items-center font-semibold">
+         <ul class="space-y-10 text-[1.2rem]">
+           <li>Your business deserves a strong online presence. Whether you need a stunning website, a powerful web or mobile application, secure business emails, or reliable domain and hosting services—we’re here to make it happen.</li>
+           <li>At Zedek’s Digital, we tailor our solutions to fit your unique needs, ensuring your digital presence reflects your brand and drives your success. Let’s build something great together</li>
+           <li>Contact us today to get started.</li>
+         </ul>
+       </div>
+       </div>
+   </section>
+
+   <section id="services" class="bg-[#fff] px-[10%] py-6">
+     <div class="my-[10%] font-['Quicksand'] space-y-10">
+       <div class="flex flex-col w-full space-y-6">
+         <span class="text-[2.5rem] font-bold ">Services Provided</span>
+         <br>
+         <span class="max-w-[80%]">Join our internship program and gain world-class skills by working on real-world projects. This is your opportunity to learn from industry experts,</span>
+
+     </div>
+     <div class="flex flex-col justify-center space-y-6 text-white">
+       <div class="w-full h-[300px] bg-[#D7AF27] rounded-[30px]">
+         <div class="flex flex-col max-w-[80%] space-y-5 p-6">
+           <img class="opacity-75" src="/assets/images/web.png" alt="web" width="70px">
+           <h3 class="font-semibold text-[1.6rem]">Website and Web Application  Development</h3>
+           <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
+         </div>
+         <div> </div>
+       </div>
+       <div class="flex flex-row space-x-6">
+         <div class="w-full h-[300px] bg-[#441B02] rounded-[30px]">
+           <div class="flex flex-col max-w-[60%] space-y-5 p-6">
+             <img class="opacity-75" src="/assets/images/mobile.png" alt="mobile" width="70px">
+             <h3 class="font-semibold text-[1.6rem]">Mobile Apps</h3>
+             <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
+           </div>
+           <div> </div>
+         </div>
+         <div class="w-full h-[300px] bg-[#D7AF27] rounded-[30px]">
+           <div class="flex flex-col max-w-[60%] space-y-5 p-6">
+             <img class="opacity-75" src="/assets/images/graphic.png" alt="Graphic" width="70px">
+             <h3 class="font-semibold text-[1.6rem]">Graphic Design</h3>
+             <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
+           </div>
+           <div> </div>
+         </div>
+       </div>
+       <div class="flex flex-row space-x-6">
+         <div class="w-full h-[300px] bg-[#D7AF27] rounded-[30px]">
+           <div class="flex flex-col max-w-[60%] space-y-5 p-6">
+             <img class="opacity-75" src="/assets/images/uiux.png" alt="ui/ux" width="70px">
+             <h3 class="font-semibold text-[1.6rem]">UI/UX Design</h3>
+             <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
+           </div>
+           <div> </div>
+         </div>
+         <div class="w-full h-[300px] bg-[#441B02] rounded-[30px]">
+           <div class="flex flex-col max-w-[60%] space-y-5 p-6">
+             <img class="opacity-75" src="/assets/images/social.png" alt="web" width="70px">
+             <h3 class="font-semibold text-[1.6rem]">Social media Management </h3>
+             <span>help you to build website company that is modern, user friendly, good CEO, and Clean design</span>
+           </div>
+           <div> </div>
+         </div>
+       </div>
+     </div>
+     </div>
+ </section>
 
   </body>
 </html>
