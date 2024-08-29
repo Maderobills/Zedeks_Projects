@@ -9,7 +9,7 @@ header{
 }
 
 section{
-    margin: auto 10%;
+    margin: auto 5%;
 }
 
 section#home{
@@ -19,5 +19,5 @@ section#home{
 
 section#why{
     
-    height: calc(70% - 65px);
+    height: calc(100% - 65px);
 }
